@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 
-# psr16-simplecache-testdoubles
+# psr16-simple-cache-testdoubles
 
 Test Doubles for PSR-16 simple cache
 
