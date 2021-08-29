@@ -7,6 +7,7 @@ use DateInterval;
 
 /**
  * @covers \Raigu\TestDouble\Psr16\InMemoryCache
+ * @uses \Raigu\TestDouble\Psr16\ClockInterface
  */
 final class InMemoryCacheTimeToLiveTest extends \PHPUnit\Framework\TestCase
 {

@@ -4,6 +4,8 @@ namespace Raigu\TestDouble\Psr16;
 
 /**
  * @covers \Raigu\TestDouble\Psr16\InMemoryCache
+ * @uses \Raigu\TestDouble\Psr16\ClockInterface
+ * @uses \Raigu\TestDouble\Psr16\PhpNativeClock
  */
 final class InMemoryCacheTest extends \PHPUnit\Framework\TestCase
 {
@@ -149,7 +151,7 @@ final class InMemoryCacheTest extends \PHPUnit\Framework\TestCase
     /**
      * @test
      */
-    public function deleting_mutliple_items_returns_True_on_success()
+    public function deleting_multiple_items_returns_True_on_success()
     {
         $sut = new InMemoryCache;
         $this->assertTrue($sut->deleteMultiple([]));

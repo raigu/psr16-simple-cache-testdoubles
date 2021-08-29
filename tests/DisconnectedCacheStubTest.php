@@ -3,7 +3,7 @@
 namespace Raigu\TestDouble\Psr16;
 
 /**
- * @covers
+ * @covers \Raigu\TestDouble\Psr16\DisconnectedCacheStub
  */
 final class DisconnectedCacheStubTest extends \PHPUnit\Framework\TestCase
 {
