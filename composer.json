@@ -13,5 +13,13 @@
         {
             "name": "Rait Kapp"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit",
+        "specification": "./vendor/bin/phpunit --testdox",
+        "coverage": "./vendor/bin/phpunit --coverage-text"
+    }
 }
