@@ -2,6 +2,9 @@
     "name": "raigu/psr16-simple-cache-testdoubles",
     "description": "Test Doubles for PSR-16 simple cache",
     "type": "library",
+    "provide": {
+        "psr/simple-cache-implementation": "1.0"
+    },
     "require": {
         "psr/simple-cache": "^1.0"
     },
